@@ -1,0 +1,23 @@
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# .NET build output
+**/bin/
+**/obj/
+
+# IDE and local tooling
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Logs and test output
+*.log
+coverage/
